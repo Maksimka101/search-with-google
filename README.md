@@ -1,0 +1,1 @@
+# Search with Google Raycast extension
