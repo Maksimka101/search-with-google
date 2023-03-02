@@ -1,5 +1,3 @@
-import { UrlWithStringQuery } from "url";
-
 export interface SearchResults {
   items: SearchResultItem[];
   query: string;

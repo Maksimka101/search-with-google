@@ -1,18 +1,22 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "google-search",
-  "title": "Search with google",
-  "description": "Extension to search with google",
+  "name": "web-search",
+  "title": "Web Search",
+  "description": "Extension to search the sites and see the results in Raycast",
   "icon": "command-icon.png",
   "author": "Maksim_Zemlyanikin",
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "Search with Google",
-      "description": "Command to search with google",
+      "title": "Search With Google",
+      "description": "Command to search using the Google engine",
+      "icon": "command-icon.png",
       "mode": "view"
     }
+  ],
+  "categories": [
+    "Web"
   ],
   "dependencies": {
     "@raycast/api": "^1.48.5",
